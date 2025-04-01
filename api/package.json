@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon --watch 'src/**/*.ts' --watch './.env'"
+    "start:dev": "nodemon --watch 'src/**/*.ts' --watch './.env'",
+    "build:prod": "tsc"
   },
   "author": "",
   "license": "ISC",
